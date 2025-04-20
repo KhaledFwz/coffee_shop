@@ -29,6 +29,7 @@ class Product(models.Model):
         return self.name
 
 #sales table
+
 class Sale(models.Model):
     customer_name = models.CharField(max_length=100)
     date = models.DateTimeField(auto_now_add=True)
